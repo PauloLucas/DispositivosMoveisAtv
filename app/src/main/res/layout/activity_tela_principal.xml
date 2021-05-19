@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2196F3"
-    tools:context=".TelaPrincipal">
+    tools:context="com.example.dispositivosmoveisatv2.TelaPrincipal">
 
     <TextView
         android:id="@+id/textView2"
@@ -51,29 +51,55 @@
         app:srcCompat="@mipmap/ic_launcher2_foreground" />
 
     <Button
-        android:id="@+id/inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Início"
+        android:id="@+id/servicos"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:text="Promoções"
         app:backgroundTint="#172957"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintHorizontal_bias="0.897"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673" />
+        app:layout_constraintVertical_bias="0.635" />
 
     <Button
-        android:id="@+id/telaLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
+        android:id="@+id/promocoes"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:text="Serviços"
         app:backgroundTint="#172957"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673" />
+        app:layout_constraintVertical_bias="0.641" />
+
+    <Button
+        android:id="@+id/valores"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:text="Valores"
+        app:backgroundTint="#172957"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <Button
+        android:id="@+id/lojas"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:text="Lojas"
+        app:backgroundTint="#172957"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

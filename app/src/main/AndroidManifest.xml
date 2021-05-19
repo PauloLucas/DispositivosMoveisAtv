@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dispositivosmoveisatv1">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,9 +10,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DispositivosMoveisAtv1">
-        <activity android:name=".TelaPrincipal"></activity>
-        <activity android:name=".Home" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.example.dispositivosmoveisatv2.TiposLojas"
+            android:parentActivityName="com.example.dispositivosmoveisatv2.TelaPrincipal">
+        </activity>
+        <activity
+            android:name="com.example.dispositivosmoveisatv2.TiposPromocoes"
+            android:parentActivityName="com.example.dispositivosmoveisatv2.TelaPrincipal">
+        </activity>
+        <activity
+            android:name="com.example.dispositivosmoveisatv2.TiposValores"
+            android:parentActivityName="com.example.dispositivosmoveisatv2.TelaPrincipal">
+         </activity>
+        <activity
+            android:name="com.example.dispositivosmoveisatv2.TiposServicos"
+            android:parentActivityName="com.example.dispositivosmoveisatv2.TelaPrincipal">
+        </activity>
+        <activity
+            android:name="com.example.dispositivosmoveisatv2.TelaPrincipal"
+            android:parentActivityName="com.example.dispositivosmoveisatv2.MainActivity">
+        </activity>
+        <activity android:name="com.example.dispositivosmoveisatv2.Home" ></activity>
+        <activity android:name="com.example.dispositivosmoveisatv2.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

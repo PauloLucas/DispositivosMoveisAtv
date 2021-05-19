@@ -1,10 +1,12 @@
-package com.example.dispositivosmoveisatv1;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.dispositivosmoveisatv2;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.dispositivosmoveisatv1.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(MainActivity.this, Home.class);
                 startActivity(i);
             }
-        }, 3000);
+        }, 2000);
 
     }
 }
